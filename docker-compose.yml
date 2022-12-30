@@ -1,4 +1,4 @@
-version: "2.9" ## especifica a versão do docker-compose file
+version: "3.8" ## especifica a versão do docker-compose file
 
 services:
   ## Define um serviço
