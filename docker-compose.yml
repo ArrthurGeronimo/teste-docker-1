@@ -2,8 +2,8 @@ version: "3.9" ## especifica a versão do docker-compose file
 
 services:
   ## Define um serviço
+  ## nome do serviço
   app:
-    ## nome do serviço
     build: ./api ## localização do dockerfile
     command: npm start ## comando a executar
     ports:
