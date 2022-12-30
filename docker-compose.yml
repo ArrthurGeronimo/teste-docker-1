@@ -4,7 +4,8 @@ services:
   ## Define um serviço
   app:
     ## nome do serviço
-    build: ./api ## localização do dockerfile
+    build:
+      context: ./dir ## localização do dockerfile
     command: npm start ## comando a executar
     ports:
       - "3000:3000" ## redirecionamento de porta quando chegar alguma requisição na porta 3000 chama o container na porta 3000
